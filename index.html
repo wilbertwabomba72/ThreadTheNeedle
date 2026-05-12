@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tread The Needle</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #070a12;
+      --panel: #111722;
+      --text: #f6f7fb;
+      --muted: #a9b0c0;
+      --cyan: #13c8d8;
+      --amber: #ffcc48;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      width: min(920px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0;
+    }
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(44px, 8vw, 86px);
+      line-height: 0.95;
+      letter-spacing: 0;
+    }
+    .lead {
+      max-width: 680px;
+      margin: 0 0 34px;
+      color: var(--muted);
+      font-size: 20px;
+    }
+    .hero {
+      border-top: 1px solid rgba(255,255,255,0.12);
+      border-bottom: 1px solid rgba(255,255,255,0.12);
+      padding: 28px 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .stat {
+      background: var(--panel);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .stat strong {
+      display: block;
+      color: var(--amber);
+      font-size: 26px;
+      margin-bottom: 6px;
+    }
+    h2 { margin-top: 44px; font-size: 28px; }
+    ul { padding-left: 22px; color: var(--muted); }
+    a { color: var(--cyan); }
+    footer {
+      margin-top: 52px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Tread The Needle</h1>
+    <p class="lead">A clean arcade timing challenge where every shot needs focus. Launch the ball, read the rotating rings, pass through the openings, and reach the finish line without touching the edges.</p>
+
+    <section class="hero" aria-label="Game highlights">
+      <div class="stat"><strong>20</strong>Hand-tuned levels with escalating ring patterns.</div>
+      <div class="stat"><strong>Precise</strong>Clear collision feedback and fast restarts.</div>
+      <div class="stat"><strong>Focused</strong>Simple controls built around timing and rhythm.</div>
+    </section>
+
+    <h2>About the Game</h2>
+    <p>Tread The Needle is a minimalist reflex game about timing, precision, and patience. Each level asks you to launch a ball through rotating rings and line up the openings at the right moment. Later stages introduce multiple rings, different sizes, offset centers, changing speeds, and opposite rotation directions.</p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Single, double, and triple ring challenges.</li>
+      <li>Increasingly varied layouts and movement patterns.</li>
+      <li>Pause and countdown resume controls.</li>
+      <li>Rewarded revive flow for optional second chances.</li>
+      <li>Minimal visual style designed for quick, readable play.</li>
+    </ul>
+
+    <h2>Support</h2>
+    <p>For support, feedback, or privacy questions, contact: <a href="mailto:support@example.com">support@example.com</a>.</p>
+
+    <footer>
+      <p><a href="privacy.html">Privacy Policy</a></p>
+      <p>© 2026 Tread The Needle. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
